@@ -1,0 +1,3 @@
+language = "nodejs"
+run = "cd app && npm run start"
+entrypoint = "app/src/app.js"
