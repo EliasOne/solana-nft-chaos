@@ -1,0 +1,25 @@
+{
+  "name": "Beta Chaos NFT",
+  "symbol": "",
+  "description": "Chaos Shop Link",
+  "seller_fee_basis_points": 3,
+  "image": "2.png",
+  "collection": {
+     "name": "Chaos Genesis",
+     "family": "Chaos Culture"
+  },
+  "properties": {
+    "files": [
+      {
+        "uri": "2.png",
+        "type": "image/png"
+      }
+    ],
+    "creators": [
+      {
+        "address": "INSERT_CREATOR_WALLET_ADDRESS_HERE",
+        "share": 100
+      }
+    ]
+  }
+}
