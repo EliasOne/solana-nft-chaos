@@ -1,0 +1,25 @@
+{
+  "name": "Genesis Rosary Necklace",
+  "symbol": "",
+  "description": "Chaos Shop Link",
+  "seller_fee_basis_points": 3,
+  "image": "0.png",
+  "collection": {
+     "name": "Chaos Genesis",
+     "family": "Chaos Culture"
+  },
+  "properties": {
+    "files": [
+      {
+        "uri": "0.png",
+        "type": "image/png"
+      }
+    ],
+    "creators": [
+      {
+        "address": "FAAzFiK9GY67cJ7HRR6yuwQTQCmQeczEs2LLoeEM8sJy",
+        "share": 100
+      }
+    ]
+  }
+}
