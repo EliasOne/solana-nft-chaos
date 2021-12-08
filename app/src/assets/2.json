@@ -1,5 +1,5 @@
 {
-  "name": "Beta Chaos NFT",
+  "name": "Indie Art Girl",
   "symbol": "",
   "description": "Chaos Shop Link",
   "seller_fee_basis_points": 3,
@@ -17,7 +17,7 @@
     ],
     "creators": [
       {
-        "address": "INSERT_CREATOR_WALLET_ADDRESS_HERE",
+        "address": "FAAzFiK9GY67cJ7HRR6yuwQTQCmQeczEs2LLoeEM8sJy",
         "share": 100
       }
     ]
