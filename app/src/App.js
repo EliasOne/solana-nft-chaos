@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import './App.css';
 import twitterLogo from './assets/twitter-logo.svg';
+import CandyMachine from './CandyMachine'; 
 
 // Constants
 const TWITTER_HANDLE = '_buildspace';
@@ -77,6 +78,17 @@ const App = () => {
           {/* Add the condition to show this only if we don't have a wallet address */}
           {!walletAddress && renderNotConnectedContainer()}
         </div>
+         {/* Check for walletAddress and then pass in walletAddress */}
+      {walletAddress && <CandyMachine walletAddress={window.solana} />}
+      machineStats && (
+        <div className="machine-container">
+          <p>{`Drop Date: ${machineStats.goLiveDateTimeString}`}</p>
+          <p>{`Items Minted: ${machineStats.itemsRedeemed} / ${machineStats.itemsAvailable}`}</p>
+          <button className="cta-button mint-button" onClick={null}>
+              Mint NFT!
+          </button>
+        </div>
+      ) 
         <div className="footer-container">
           <img alt="Twitter Logo" className="twitter-logo" src={twitterLogo} />
           <a
