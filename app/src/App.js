@@ -80,15 +80,6 @@ const App = () => {
         </div>
          {/* Check for walletAddress and then pass in walletAddress */}
       {walletAddress && <CandyMachine walletAddress={window.solana} />}
-      machineStats && (
-        <div className="machine-container">
-          <p>{`Drop Date: ${machineStats.goLiveDateTimeString}`}</p>
-          <p>{`Items Minted: ${machineStats.itemsRedeemed} / ${machineStats.itemsAvailable}`}</p>
-          <button className="cta-button mint-button" onClick={null}>
-              Mint NFT!
-          </button>
-        </div>
-      ) 
         <div className="footer-container">
           <img alt="Twitter Logo" className="twitter-logo" src={twitterLogo} />
           <a
